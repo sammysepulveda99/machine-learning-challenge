@@ -1,7 +1,5 @@
 # Machine Learning Homework - Exoplanet Exploration
 
-![exoplanets.jpg](Images/exoplanets.jpg)
-
 ### Before You Begin
 
 1. Create a new repository for this project called `machine-learning-challenge`. **Do not add this homework to an existing repository**.
@@ -100,12 +98,12 @@ Five machine learning models where used to train and test exoplanets from the da
 | --- |
 ![logistic_regression.png](starter_code/image_models/logistic_regression.png)
 
-The FALSE POSITIVE was reliable and predicted well with a 0.89, but this was lower when comparing it to Random Forest, which was 0.97. In terms of Accuracy, Neural Network was more accurate at 0.8839, than the Deep Neural Network with 0.8822. 
+The FALSE POSITIVE was reliable and predicted well with a 0.89, but this was lower when comparing it to Random Forest, which was 0.97. In terms of Accuracy, Neural Network was more accurate at 0.8839, than the Deep Neural Network with 0.8822, even though more than one layer of hidden nodes was used . 
 | Neural Network |
 | --- |
 ![neuralnetwork.png](starter_code/image_models/neuralnetwork.png)
 
-After analyzing all the models, random forest was better suited to predict this data, because it's best score was of 0.89, higher than SVM which was 0.88. This was a fun activity to make since it helped me practing the training, testing, accuracy, recall, and precision needed to make these models.
+After analyzing all the models, random forest was better suited to predict this data, because it's best score was of 0.89, higher than SVM which was 0.88. It should be noted that after hypertuning models with GridSearch parameters, the accuracy increased when compared to test scores of regular models such as SVM and Logistic Regression. This was a fun activity to make since it helped me practice the training, testing, accuracy, recall, and precision needed to make these models.
 | SVM |
 | --- |
 ![svm.png](starter_code/image_models/svm.png)
