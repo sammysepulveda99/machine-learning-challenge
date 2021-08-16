@@ -88,12 +88,27 @@ In this homework assignment, you will need to:
 
 * Submit the link to your GitHub project to Bootcamp Spot.
 
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
+* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file.
 
 ## Rubric
 
 [Unit 21 Rubric - Machine Learning Homework - Exoplanet Exploration](https://docs.google.com/document/d/1IcLYc8KHt82ftMcsueM6s7rn9nexuN4PqHSJDUa7e2Y/edit?usp=sharing)
 
-- - -
+## Report
+Five machine learning models where used to train and test exoplanets from the dataset provided. It can be seen that by using the logistic regression, the test score increased, but when compared to other models it was lower. 
+| Logistic Regression |
+| --- |
+![logistic_regression.png](starter_code/image_models/logistic_regression.png)
 
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+The FALSE POSITIVE was reliable and predicted well with a 0.89, but this was lower when comparing it to Random Forest, which was 0.97. In terms of Accuracy, Neural Network was more accurate at 0.8839, than the Deep Neural Network with 0.8822. 
+| Neural Network |
+| --- |
+![neuralnetwork.png](starter_code/image_models/neuralnetwork.png)
+
+After analyzing all the models, random forest was better suited to predict this data, because it's best score was of 0.89, higher than SVM which was 0.88. This was a fun activity to make since it helped me practing the training, testing, accuracy, recall, and precision needed to make these models.
+| SVM |
+| --- |
+![svm.png](starter_code/image_models/svm.png)
+| Random Forest |
+| --- |
+![random_forest_classify.png](starter_code/image_models/random_forest_classify.png)
