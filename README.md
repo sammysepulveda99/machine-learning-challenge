@@ -107,6 +107,8 @@ After analyzing all the models, random forest was better suited to predict this 
 | SVM |
 | --- |
 ![svm.png](starter_code/image_models/svm.png)
+
+
 | Random Forest |
 | --- |
 ![random_forest_classify.png](starter_code/image_models/random_forest_classify.png)
